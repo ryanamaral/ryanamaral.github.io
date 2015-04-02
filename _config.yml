@@ -3,9 +3,9 @@
 # Site settings
 title: SOLID.
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+analytics: UA-61486844-1
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://ryanamaral.github.io/"
 
 # Build settings
 markdown: kramdown
@@ -24,27 +24,21 @@ colors:  #in hex code if not noted else
   
 ### CONTACT SETTINGS ###
 
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+# Social networks usernames. Many more available: dribbble, facebook, google-plus, flickr, instagram, tumblr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
+  - title: linkedin
+    url: https://www.linkedin.com/in/ryanamaral
   - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+    url: https://twitter.com/mitchell_lra
+	
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - Lisbon
+    - Portugal
+email: me@ryanamaral.com
+#tel: +351 000-000-000
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
