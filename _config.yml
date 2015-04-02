@@ -26,12 +26,17 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: dribbble, facebook, google-plus, flickr, instagram, tumblr, linkedin, etc). Shown in footer.
 social:
+  - title: dribbble
+    url:
   - title: linkedin
     url: https://www.linkedin.com/in/ryanamaral
   - title: twitter
     url: https://twitter.com/mitchell_lra
-	
-    
+  - title: instagram
+    url: 
+  - title: tumblr
+    url: 
+
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
