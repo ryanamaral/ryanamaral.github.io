@@ -1,10 +1,10 @@
 ---
-layout: project
+layout: project       #important: don't change this
 title:  "WiFi Pass Recovery & Backup"
 date:   2011-01-01 09:00:00
 author: Ryan Amaral
 categories:
-- Android
+- project             #important: leave this here
 img: wifi_pass_recovery.png			 #place image (600x450) with this name in /assets/img/project/
 thumb: thumb_wifi_pass_recovery.jpg  #place thumbnail(70x70)with this name in /assets/img/blog/thumbs/
 carousel:
