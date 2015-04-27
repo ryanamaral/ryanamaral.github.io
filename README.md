@@ -1,25 +1,28 @@
-Ryan Amaral | Android Developer
-===============================
+#Ryan Amaral | Android Developer
 **Personal Website**
 
 ![Screenshot](../master/assets/img/home-page.png)
 
+##Technology
+  * [Jekyll (static site generator)](http://jekyllrb.com/)
+  * Framework: [Bootstrap](https://github.com/twbs/bootstrap)
+  * Theme: [Solid](http://www.blacktie.co/2014/05/solid-multipurpose-theme/)
+  * [Jekyll port of the Solid theme](https://github.com/st4ple/solid-jekyll)
+  * [Liquid markup language](https://github.com/Shopify/liquid)
 
-###tools:
-  * Brackets (text editor)
+
+##Tools
+  * [Brackets (text editor)](http://brackets.io/)
   * [Device Art Generator](https://developer.android.com/distribute/tools/promote/device-art.html)
-
-###technology:
-  * [Jekyll](http://jekyllrb.com/)
-  * Bootstrap theme: [Solid](http://www.blacktie.co/2014/05/solid-multipurpose-theme/)
-  * https://github.com/codrops/DirectionAwareHoverEffect
-  * [Icons List of Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/)
-  * Liquid - Ruby library for rendering safe templates [liquidmarkup.org](http://liquidmarkup.org/)
-  * [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-
-###js libraries
-  * **prettyPhoto** is a jQuery lightbox clone. Not only does it support images, it also support for videos, flash, YouTube, iframes and ajax. It’s a full blown media lightbox. (http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone)
+  * [Icon list of Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/)
 
 
-## License
+##Libraries
+  * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+  * [Masonry (Cascading grid layout library)](https://github.com/desandro/masonry)
+  * [PrettyPhoto lightbox (Support images, videos, flash, YouTube, iframes and ajax)](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone)
+  * [DirectionAwareHoverEffect (Hover effects)](https://github.com/codrops/DirectionAwareHoverEffect)
+
+
+##License
 [MIT](http://opensource.org/licenses/MIT)
