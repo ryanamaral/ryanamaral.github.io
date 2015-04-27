@@ -1,0 +1,27 @@
+---
+layout: project
+categories:
+- project
+title:  "Bubble"
+date:   2013-08-01
+location: Lisbon, Portugal
+icon: bubble.png
+carousel:
+- bubble/1.png
+- bubble/2.png
+- bubble/3.png
+- bubble/4.png
+- bubble/5.png
+- bubble/6.png
+- bubble/7.png
+company: BubbleApp
+
+---
+####Bubble
+*Always know where your child is.*
+
+This app allows you to have your children inside a bubble and let them play freely without worrying about losing them (at a park or simply inside a playground where they are out of sight).  
+
+When the child leaves the range of the bubble (smartphone of the parents), an alert with a sound notification is sent to the smartphone. This bubble range is programmable.  
+
+This app is designed to work in combination with a Bluetooth LE sticker.

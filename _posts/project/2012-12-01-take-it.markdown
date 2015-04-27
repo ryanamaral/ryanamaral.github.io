@@ -1,0 +1,28 @@
+---
+layout: project
+categories:
+- project
+title:  "Take-It"
+date:   2012-12-01
+location: Coimbra, Portugal
+icon: takeit.png
+carousel:
+- takeit/1.png
+company: Academic Project
+
+---
+####Take-It
+*Transfer files between devices using wireless technologies in a quick and efficient way.*
+
+The app Take-It aims to be simple and easy to use, allowing the user to *right-click* any file in the device and send it to any Android user in the same network. The receiver can accept or reject the requests.
+
+Among many technologies providing this service, the most developed one is Bluetooth, but with problems like the time needed to transfer a file and range being very limited.
+
+This app is intended to solve these problems, taking advantage of the fact that nowadays there are many places with wireless networks, so over the network it’s possible to transfer files with great speed, without logins or settings and reach of the local networks.
+
+Useful in different situations:
+
+  * crucial for most students to share documents and photos with colleagues;
+  * users at a shopping center - casual meeting;
+  * users at home - sharing files with other devices;
+  * users at worke - sharing files with coworkers.  

@@ -1,0 +1,19 @@
+---
+layout: project
+categories:
+- project
+title:  "Door Bell"
+date:   2013-03-01
+location: Amsterdam, The Netherlands
+icon: door_bell.png
+carousel:
+- doorbell/1.png
+company: M2mobi
+
+---
+####Door Bell
+This app is meant to all companies that don't have a physical door bell for visitors to ring.  
+
+It's a simple one button app that rings a virtual door bell for the company and its employees to know that someone is at the door.  
+
+The first employee to answer send an immediate reply notification to the visitor for him to know that you are coming.  

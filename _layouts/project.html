@@ -19,14 +19,23 @@ layout: default
             <div class="spacing"></div>
             <h4>Project Details</h4>
             <div class="hline"></div>
-            <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
-            <p><b>Author:</b> {{ page.author }}</p>
-            <p><b>Categories:</b> {{ page.categories }}</p>
-            <p><b>Tagged:</b> Flat, UI, Development</p>
-            <p><b>Client:</b> {{ page.client }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            <p><b>Date:</b> {{ page.date | date: "%B %Y" }}</p>
+			<p><b>Location:</b> {{ page.location }}</p>
+<!--            <p><b>Developer:</b> {{ page.developer }}</p>-->
+<!--            <p><b>Categories:</b> {{ page.categories }}</p>-->
+            <p><b>Organization:</b> {{ page.company }}</p>
+            
+            {% if page.googleplay != nil %}
+                <p><b>Google Play:</b> <a href="{{ page.googleplay }}">{{ page.googleplay }}</a></p>
+            {% endif %}
+            {% if page.packagename != nil %}
+                <p><a href="https://play.google.com/store/apps/details?id={{ page.packagename }}" target="_blank">
+                  <img alt="Android app on Google Play"
+                       src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+                </a></p>
+            {% endif %}
         </div>
     </div><! --/row -->
 </div><! --/container -->
 	 
-{% include portfolio.html title="Related Works." limit=5 %}
+{% include portfolio.html title="other projects" limit=7 %}

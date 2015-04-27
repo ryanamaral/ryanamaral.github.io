@@ -1,0 +1,24 @@
+---
+layout: project
+categories:
+- project
+title:  "BeMyChef!"
+date:   2012-11-01
+location: Lisbon, Portugal
+icon: bemychef.png
+company: DeltaApp Contest
+carousel:
+- bemychef/0.jpg
+- bemychef/1.png
+
+---
+####BeMyChef!
+*The best place to find the supreme chef and the perfect guests!*
+
+The app was developed for any user who wants to share a homemade meal!  
+
+BeMyChef! allows the user to be a chef, creating an event that will be available in their friends network (facebook), suggesting to share a meal.  
+
+Users can also choose to be a guest and find out where and when to eat nearby.  
+
+The main goal of the app is to create the habit of sharing homemade meals with friends in order to promote social interaction.

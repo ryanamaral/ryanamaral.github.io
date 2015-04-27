@@ -1,11 +1,13 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "Ryan Amaral | Android Developer"
+title_topbar: "Ryan Amaral &nbsp | &nbsp  Android Developer"
+description: "Portfolio"
 analytics: UA-61486844-1
-baseurl: "" #important: start with /
+baseurl: ""
 url: "http://ryanamaral.github.io/"
+#url: "http://127.00.1:4000"
 
 # Build settings
 markdown: kramdown
@@ -13,96 +15,70 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031" 
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  primary: "#9FC2CC" #"#00b3fe" #"#F70031"
+  primary_rgb: "159,194,204" #0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#384452" #"#33004D"
+  yellow: "#BB7722"
+  blue: "#1B5299"
+  white: "#FFFFFF"
   link: "#428bca"
-  link_hover: "#01b2fe"
+  link_hover: "#BB7722" #"#BB7722" #"#9FC2CC" #"#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
-  
-  
+
+
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: dribbble, facebook, google-plus, flickr, instagram, tumblr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
+  - title: github
+    url: http://github.com/ryanamaral
   - title: linkedin
     url: https://www.linkedin.com/in/ryanamaral
   - title: twitter
-    url: https://twitter.com/mitchell_lra
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+    url: https://twitter.com/ryanamaralpt
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/904907/ryan
+
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
-  - lines: 
-    - Lisbon
-    - Portugal
+  - lines:
+    - Lisbon, Portugal
+
 email: me@ryanamaral.com
-#tel: +351 000-000-000
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
-# Members information. Shown on About page.
-members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-    
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 
-# Testimonial content. Shown on Home and About page. 
+# Companies
+companies:
+  - name: "LeYa"
+    img: leya.png
+  - name: Bubble
+    img: bubble.png
+  - name: "BOLD Internacional"
+    img: bold-internacional.png
+  - name: "Público"
+    img: publico.png
+  - name: M2mobi
+    img: m2mobi.png
+  - name: iClio
+    img: iclio.png
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Hi there! My name is Ryan Amaral, I’m a passionate Software Engineer. I’ve been working with Android Development for 3+ years now. And I love it!"
+
+# Recommendations
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    message: "\"Ryan, great friend and college classmate, is a very disciplined, responsible and with excellent leadership skills and team spirit person, having the ability to work efficiently under stressful conditions and tight deadlines. A professional with excellent high technical knowledge, always available to provide solutions to any challenge. Software development is his world, complete with Scrum techniques allied with IntelliJ IDEA and intensive use of Git. Java is his language of choice complemented with the use of JSON, XML, RESTful WebServices and SQLite. In mobile development raves about Android, which has shown great success due to their commitment and professionalism.\""
+    author: Sérgio Duarte Fernandes
+    position: Core and Access Network at Portugal Telecom
+
+people:
+  - message: "\"I've had the privilege to be working with Ryan in mobile development related projects for more than a year. During this period Ryan has demonstrated an exemplar commitment, giving an exceptional technical contribute in the Android development area. He has faced and overcome enormous challenges on legacy code management and refactoring and has brought an essential technical input for the project success. Ryan has also shown to have excellent team skills, as an easy-going, constructive and caring person, even at the most stressful times.\""
+    author: João Fernandes
+    position: Head of Technology at Grupo Leya
+  - message: "\"Ryan, great friend and college classmate, is a very disciplined, responsible and with excellent leadership skills and team spirit person, having the ability to work efficiently under stressful conditions and tight deadlines. A professional with excellent high technical knowledge, always available to provide solutions to any challenge. Software development is his world, complete with Scrum techniques allied with IntelliJ IDEA and intensive use of Git. Java is his language of choice complemented with the use of JSON, XML, RESTful WebServices and SQLite. In mobile development raves about Android, which has shown great success due to their commitment and professionalism.\""
+    author: Sérgio Duarte Fernandes
+    position: Core and Access Network at Portugal Telecom

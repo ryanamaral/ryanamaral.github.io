@@ -1,0 +1,32 @@
+---
+layout: project
+categories:
+- project
+title:  "Público"
+date:   2013-10-14
+location: Lisbon, Portugal
+icon: publico.png
+carousel:
+- publico/1.png
+- publico/2.png
+- publico/3.png
+- publico/4.png
+- publico/5.png
+- publico/6.png
+- publico/7.png
+company: Público Comunicação Social S.A.
+packagename: pt.publico.android
+
+---
+####Público
+Android application for one of the biggest newspapers in Portugal: Público.  
+
+The app provides access to the breaking news from each of the information categories
+proposed by the newspaper: business, world and national news, sports, arts, technology,
+among others.  
+
+It also gives the user access to PDF versions of the printed newspaper editions through
+its own PDF reader.  
+
+The news are enhanced by multimedia resources such as videos and images and also a
+space for comments.

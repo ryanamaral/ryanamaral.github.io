@@ -1,0 +1,29 @@
+---
+layout: project
+categories:
+- project
+title:  "Victron Energy"
+date:   2013-03-06
+location: Amsterdam, The Netherlands
+icon: victron.png
+carousel:
+- victron/0.png
+- victron/1.png
+- victron/2.png
+- victron/3.png
+- victron/4.png
+- victron/5.png
+- victron/6.png
+- victron/7.png
+- victron/8.png
+company: Victron Energy BV
+packagename: nl.victronenergy
+
+---
+####VRM - Victron Energy
+The purpose of the application is to display and manage Victron Energy systems.
+Users can login with their VRM account and then a list of sites is displayed.
+When clicking on a site you can see the system diagram, the current system status and energy.
+The application displays this information in a clear and dynamic way.
+Open or close the outputs automatically using the Android SMS Manager.
+The app complements the Victron Remote Management website.

@@ -61,18 +61,22 @@
 			columnNumber = 1;
 		
 			if (winWidth > 1200) {
+				columnNumber = 7;
+			} else if (winWidth > 1000) {
+				columnNumber = 6;
+			} else if (winWidth > 800) {
 				columnNumber = 5;
-			} else if (winWidth > 950) {
-				columnNumber = 4;
 			} else if (winWidth > 600) {
-				columnNumber = 3;
-			} else if (winWidth > 400) {
+				columnNumber = 4;
+			} else if (winWidth > 450) {
+                columnNumber = 3;
+			} else if (winWidth > 300) {
 				columnNumber = 2;
-			} else if (winWidth > 250) {
+			} else if (winWidth > 150) {
 				columnNumber = 1;
 			}
 				return columnNumber;
-			}       
+			}   
 			
 			function setColumns() {
 				var winWidth = $(window).width(), 

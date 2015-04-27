@@ -1,0 +1,55 @@
+<div id="contactwrap"></div>
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>get in touch!</h4>
+            <div class="hline"></div>
+                <!-- <p>{{ site.about }}</p> -->
+				</p>
+                <!-- <form role="form" method="POST" action="//formspree.io/{{ site.email }}"> -->
+                <form role="form" action="https://getsimpleform.com/messages?form_api_token=e16741a29c4fb4ecc195c7d62ea2f0ee" method="post">
+                  <div class="form-group">
+                    <label for="InputName1">your name</label>
+                    <input type="text" name="name" class="form-control" id="name1" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="InputEmail1">your email</label>
+                    <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" />
+                  </div>
+                  <div class="form-group">
+                    <label for="message1">message</label>
+                    <textarea name="message" class="form-control" id="message1" rows="3" required /></textarea>
+                  </div>
+<!--                <input type='hidden' name='redirect_to' value='{{ site.url }}/thank-you/' />-->
+                  <button type="submit" value="Send" class="btn btn-theme">submit</button>
+                </form>
+        </div><! --/col-lg-8 -->
+        <div class="col-lg-4">
+
+            <h4>twitter feed</h4>
+            <div class="hline"></div>
+        
+            <p></p>
+            <!-- Twitter -->
+			<!-- data-chrome="nofooter" -->
+            <!--                data-chrome="nofooter noheader nofooter noborders noscrollbar"-->
+            <div id="twitter_feed">
+                <a class="twitter-timeline"
+                href="https://twitter.com/ryanamaralpt"
+                data-widget-id="589464689358286848"
+                data-theme="light"
+                data-chrome="noheader nofooter noscrollbar"
+                data-tweet-limit="3"></a>
+                <script type="text/javascript">
+                    window.twttr = (function (d, s, id) {
+                      var t, js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id; js.src= "https://platform.twitter.com/widgets.js";
+                      fjs.parentNode.insertBefore(js, fjs);
+                      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+                    }(document, "script", "twitter-wjs"));
+                </script>
+            </div> <!-- /Twitter -->
+        </div><! --/col-lg-4 -->
+    </div><! --/row -->
+</div><! --/container -->

@@ -153,10 +153,11 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+  background-color: {{ site.colors.yellow }};
+  border-color: {{ site.colors.yellow }};
 }
 
+/* button plus (+) to open project */
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus{
@@ -183,11 +184,17 @@ a:focus {
 	text-decoration: none;
 	text-align: center;
 	display: inline-block;
-	-webkit-transition: background-color 300ms ease-out;
-	-moz-transition: background-color 300ms ease-out;
-	transition: background-color 300ms ease-out;
+	-webkit-transition: background-color 1300ms ease-out;
+	-moz-transition: background-color 1300ms ease-out;
+	transition: background-color 1300ms ease-out;
 	-webkit-appearance: none;
 	font-weight: normal !important;
+}
+
+/* hello! container */
+.hello {
+	margin-top: 80px;
+	margin-bottom: 0px;
 }
 
 .mtb {
@@ -203,6 +210,21 @@ a:focus {
 	margin-top: 60px;
 }
 
+.testimonial-line {
+    margin-top: 30px;
+    border-bottom: 1px solid {{ site.colors.white }};
+}
+
+.hline-title {
+/*    margin-left: 110px;*/
+/*    margin-right: 110px;*/
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	border-bottom: 2px solid {{ site.colors.secondary }};
+}
+
 .hline {
 	border-bottom: 2px solid {{ site.colors.secondary }};
 }
@@ -211,6 +233,7 @@ a:focus {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
 }
+
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
@@ -249,16 +272,37 @@ a:focus {
 	padding: 15px;
 }
 
+/*header text*/
+#header-text, #header-ico {
+    line-height: 50px;
+}
+
+#header-text {
+    font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size:28px;
+}
+
+#header-ico {
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: baseline;
+}
+
+
 /* Portfolio Wrap */
 #portfoliowrap {
 	padding-top: 60px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
+/*	margin-bottom: 60px;*/
 	display: block;
 	text-align: center
 }
 
+/* project title */
 #portfoliowrap h3 {
-	margin-bottom: 25px;
+	margin-bottom: 20px;
+/*	margin-bottom: 25px;*/
 }
 
 .portfolio {
@@ -267,10 +311,22 @@ a:focus {
 	display:block;
 }
 
-
-.portfolio-item .title:before {border-radius:0; display:none}
-.portfolio-item p {margin:0px 0 30px;}
-.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
+.portfolio-image {
+    padding: 40px;
+}
+    
+.portfolio-item .title:before {
+    border-radius:0;
+    display:none
+}
+.portfolio-item p {
+    margin:0 0 30px;
+}
+.portfolio-item h3 {
+    margin:-10px 0 10px;
+    font-size:16px;
+    text-transform:uppercase;
+}
 
 
 .tpl6 h3
@@ -284,16 +340,15 @@ a:focus {
 .tpl6 .dmbutton
 {
 	display:inline-block;
-	margin:30px 5px 20px 5px;
+/*	margin:30px 5px 20px 5px;*/
 	font-size:13px;
 }
 
-.tpl6 .bg
-{
+.tpl6 .bg {
 	height:100%;
 	width:100%;
 	background-color:{{ site.colors.primary }};
-	background-color:rgba({{ site.colors.primary_rgb }},.9);
+	background-color:rgba({{ site.colors.primary_rgb }},.95);
 	text-align:center;
 }
 
@@ -308,11 +363,13 @@ a:focus {
     height: 100%;
 }
 
+/* Testimonials wrap */
 #twrap {
-    background: url(../img/t-back.jpg) no-repeat center top;
+    background: url(../img/25-de-abril-bridge.jpg) no-repeat center top;
     position: relative;
     margin-top: 0px;
 	padding-top:60px;
+	padding-bottom:35px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -342,16 +399,24 @@ a:focus {
 	line-height: 30px;
 }
 
-/* clients logo */
+/* companies logo */
+#clientLogo{
+/*	margin: 15px auto;*/
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
 #cwrap {
 	background: #f7f7f7;
 	margin-top: 0px;
-	padding-top: 80px;
-	padding-bottom: 100px;
+	padding-top: 55px;
+	padding-bottom: 110px;
 }
 
 #cwrap h3 {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 /* Footer */

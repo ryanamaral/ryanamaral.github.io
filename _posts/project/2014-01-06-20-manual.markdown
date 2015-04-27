@@ -1,0 +1,39 @@
+---
+layout: project
+categories:
+- project
+title:  "20 Manual"
+date:   2014-01-20
+location: Lisbon, Portugal
+icon: 20manual.png
+carousel:
+- 20manual/1.png
+- 20manual/2.png
+- 20manual/3.png
+- 20manual/4.png
+- 20manual/5.png
+- 20manual/6.png
+- 20manual/7.png
+- 20manual/8.png
+company: LeYa S.A.
+packagename: com.leya.educacao.manualdigital
+
+---
+####20 Manual
+*A new approach for textbooks.*
+
+Application that provides access to the projects of the scholar publishers from LeYa Group
+(ASA, Sebenta, Texto or Gailivro).  
+
+Whether online or offline, the educational tools can be used in a simple and intuitive way.
+All the components of the school project are available in the app: text books, interactive
+notebook, teacher support materials and multimedia resources.  
+
+The text book is interactive, providing search tools and also writing on or underlining its
+pages.  
+
+The interactive notebook enables the user to make notes, take pictures, and then record
+and share everything by email.  
+
+The multimedia resources include videos, animations, presentations, simulations,
+interactive activities, among others.
