@@ -7,6 +7,7 @@ date:   2011-10-01
 location: Coimbra, Portugal
 icon: hockey_san_juan_2011.png
 carousel:
+- hockey2011/0.png
 - hockey2011/1.png
 - hockey2011/2.png
 - hockey2011/3.png

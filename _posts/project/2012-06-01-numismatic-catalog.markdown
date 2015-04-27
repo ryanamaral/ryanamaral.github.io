@@ -8,13 +8,6 @@ location: Coimbra, Portugal
 icon: numismatic_catalog.png
 carousel:
 - numismatic/1.png
-- numismatic/2.png
-- numismatic/3.png
-- numismatic/4.png
-- numismatic/5.png
-- numismatic/6.png
-- numismatic/7.png
-- numismatic/8.png
 
 ---
 ####Numismatic Catalog | Portugal
