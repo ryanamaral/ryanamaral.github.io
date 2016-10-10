@@ -3,7 +3,7 @@ layout: project
 categories:
 - project
 title:  "Público 2016"
-date:   2016
+date:   2016-01-01
 location: Lisbon, Portugal
 icon: publico_2016.png
 carousel:
