@@ -20,7 +20,8 @@ company: Victron Energy BV
 packagename: nl.victronenergy
 
 ---
-####VRM - Victron Energy
+#### VRM - Victron Energy
+
 The purpose of the application is to display and manage Victron Energy systems.
 Users can login with their VRM account and then a list of sites is displayed.
 When clicking on a site you can see the system diagram, the current system status and energy.

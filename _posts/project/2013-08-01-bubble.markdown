@@ -18,7 +18,8 @@ carousel:
 company: BubbleApp
 
 ---
-####Bubble
+#### Bubble
+
 *Always know where your child is.*
 
 This app allows you to have your children inside a bubble and let them play freely without worrying about losing them (at a park or simply inside a playground where they are out of sight).  

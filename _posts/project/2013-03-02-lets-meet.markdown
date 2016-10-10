@@ -12,5 +12,6 @@ company: Let's Meet – Pay Logic
 packagename: nl.eelogic.awesomedemolive
 
 ---
-####Let's Meet
+#### Let's Meet
+
 Let's Meet is a Paylogic app "white label" for event organizers. This Demo App offers a preview of the best Mobile Event Experience Tool (MEET). You can use it as a visitor of the event, and receive for example a map, the latest updates news about a festival, direct access to your ticket, link to social media accounts and share your experience with friends. If you are an organizer this app will allow you to sell tickets on mobile, send mass notifications to your visitors, provide interactive program / lineup / schedule, among other features.

@@ -19,7 +19,8 @@ company: LeYa S.A.
 packagename: com.leya.educacao.manualdigital
 
 ---
-####20 Manual
+#### 20 Manual
+
 *A new approach for textbooks.*
 
 Application that provides access to the projects of the scholar publishers from LeYa Group

@@ -11,7 +11,8 @@ carousel:
 company: Academic Project
 
 ---
-####Take-It
+#### Take-It
+
 *Transfer files between devices using wireless technologies in a quick and efficient way.*
 
 The app Take-It aims to be simple and easy to use, allowing the user to *right-click* any file in the device and send it to any Android user in the same network. The receiver can accept or reject the requests.

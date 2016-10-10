@@ -17,7 +17,8 @@ company: Personal Project
 packagename: com.ryanamaral.goweezrd
 
 ---
-####GoWeezrd for Pokémon Go
+#### GoWeezrd for Pokémon Go
+
 Information is power. GoWeezrd is the simplest app to give you power by helping you analyse the information you need when playing Pokemon GO, to win!
 This app has information about every Pokemon in the Pokedex: Type and its Defense Effectiveness, Egg distance to hatch and Candy to evolve.
 

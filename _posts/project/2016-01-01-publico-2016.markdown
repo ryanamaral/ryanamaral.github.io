@@ -17,7 +17,8 @@ company: Público - Comunicação Social S.A.
 packagename: pt.publico.android
 
 ---
-####Público 2016
+#### Público 2016
+
 Android application for one of the biggest newspapers in Portugal: Público.  
 
 The app provides access to the breaking news from each of the information categories

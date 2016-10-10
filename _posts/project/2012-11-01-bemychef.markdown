@@ -12,7 +12,8 @@ carousel:
 - bemychef/1.png
 
 ---
-####BeMyChef!
+#### BeMyChef!
+
 *The best place to find the supreme chef and the perfect guests!*
 
 The app was developed for any user who wants to share a homemade meal!  
