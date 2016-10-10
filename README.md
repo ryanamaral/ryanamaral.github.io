@@ -1,5 +1,4 @@
 #Ryan Amaral | Android Developer
-**Personal Website**
 
 ![Screenshot](../master/assets/img/home-page.png)
 
@@ -12,7 +11,6 @@
 
 
 ##Tools
-  * [Brackets (text editor)](http://brackets.io/)
   * [Device Art Generator](https://developer.android.com/distribute/tools/promote/device-art.html)
   * [Icon list of Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/)
 

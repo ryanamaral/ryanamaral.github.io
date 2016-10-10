@@ -1,0 +1,28 @@
+---
+layout: project
+categories:
+- project
+title:  "GoWeezrd"
+date:   2016-08-08
+location: Lisbon, Portugal
+icon: goweezrd.png
+carousel:
+- goweezrd/1.png
+- goweezrd/2.png
+- goweezrd/3.png
+- goweezrd/4.png
+- goweezrd/5.png
+- goweezrd/6.png
+company: Personal Project
+packagename: com.ryanamaral.goweezrd
+
+---
+####GoWeezrd for Pokémon Go
+Information is power. GoWeezrd is the simplest app to give you power by helping you analyse the information you need when playing Pokemon GO, to win!
+This app has information about every Pokemon in the Pokedex: Type and its Defense Effectiveness, Egg distance to hatch and Candy to evolve.
+
+With this tool you'll be able to know what is the Max CP (Combat Power), as well as the Max HP (Hit Points) your Pokemon can reach.
+
+Last but not least, GoWeezrd lets you predict the CP (Combat Power) of the next evolution of your current Pokemon and access the catch and flee rates.
+
+To get'em all, get'em wisely. :)

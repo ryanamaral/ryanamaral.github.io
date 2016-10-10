@@ -2,23 +2,22 @@
 layout: project
 categories:
 - project
-title:  "Público"
-date:   2013-10-14
+title:  "Público 2016"
+date:   2016
 location: Lisbon, Portugal
-icon: publico.png
+icon: publico_2016.png
 carousel:
-- publico/1.png
-- publico/2.png
-- publico/3.png
-- publico/4.png
-- publico/5.png
-- publico/6.png
-- publico/7.png
+- publico2016/1.png
+- publico2016/2.png
+- publico2016/3.png
+- publico2016/4.png
+- publico2016/5.png
+- publico2016/6.png
 company: Público - Comunicação Social S.A.
 packagename: pt.publico.android
 
 ---
-####Público
+####Público 2016
 Android application for one of the biggest newspapers in Portugal: Público.  
 
 The app provides access to the breaking news from each of the information categories
