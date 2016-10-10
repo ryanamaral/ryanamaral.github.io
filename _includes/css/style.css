@@ -466,8 +466,9 @@ a:focus {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: 600px;
   max-height: 600px;
+  width: auto;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -480,7 +481,7 @@ a:focus {
   cursor: pointer;
   background-color: #ccc \9;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #666;
+  border: 2px solid #384452;
   border-radius: 10px;
 }
 
