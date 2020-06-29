@@ -1,0 +1,21 @@
+---
+layout: project
+categories:
+- project
+title:  "Raffler"
+date:   2017-11-01
+location: London, UK
+icon: raffler.png
+carousel:
+- raffler/1.png
+- raffler/2.png
+- raffler/3.png
+- raffler/4.png
+- raffler/5.png
+company: Raffler Limited
+packagename: co.raffler
+
+---
+#### Raffler
+
+Raffler is a free app that gives everybody an equal opportunity to win prize money and rewards everyday. Players enter by watching two 30-second adverts. The adverts pay for the prizes. The more people that play, the larger the prizes become. Raffler's mission is to make a worldwide community of users smile, through prizes and engaging content.
