@@ -5,18 +5,8 @@ categories:
 title:  "Basketball European Championship"
 date:   2011-08-01
 location: Coimbra, Portugal
-icon: basket2011.png
-carousel:
-- basket2011/0.png
-- basket2011/1.png
-- basket2011/2.png
-- basket2011/3.png
-- basket2011/4.png
-- basket2011/5.png
-- basket2011/6.png
-- basket2011/7.png
-- basket2011/8.png
-- basket2011/9.png
+assets: basket2011
+carousel_size: 10
 company: Major Sports Events – iClio
 packagename: com.ryan
 

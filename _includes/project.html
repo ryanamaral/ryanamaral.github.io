@@ -15,21 +15,14 @@
             <div class="hline"></div>
             <p><b>Date:</b> {{ page.date | date: "%B %Y" }}</p>
 			<p><b>Location:</b> {{ page.location }}</p>
-<!--            <p><b>Developer:</b> {{ page.developer }}</p>-->
-<!--            <p><b>Categories:</b> {{ page.categories }}</p>-->
             <p><b>Organization:</b> {{ page.company }}</p>
             
-            {% if page.googleplay != nil %}
-                <p><b>Google Play:</b> <a href="{{ page.googleplay }}">{{ page.googleplay }}</a></p>
-            {% endif %}
             {% if page.packagename != nil %}
-                <p><a href="https://play.google.com/store/apps/details?id={{ page.packagename }}" target="_blank">
-                  <img alt="Android app on Google Play"
-                       src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
-                </a></p>
+            <p><b>Package name:</b> {{ page.packagename }}</p>
             {% endif %}
         </div>
-    </div><! --/row -->
-</div><! --/container -->
-	 
-{% include portfolio.html title="other projects" limit=7 %}
+
+    </div>
+</div>
+
+{% include portfolio.html title="Latest Android Apps" limit=7 %}

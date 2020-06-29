@@ -5,9 +5,8 @@ categories:
 title:  "PANN"
 date:   2013-03-03
 location: Amsterdam, The Netherlands
-icon: pann.png
-carousel:
-- pann/1.png
+assets: pann
+carousel_size: 1
 company: Let's Meet – Pay Logic
 packagename: nl.eelogic.single.pann
 

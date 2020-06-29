@@ -5,17 +5,8 @@ categories:
 title:  "Hockey World Championship"
 date:   2011-10-01
 location: Coimbra, Portugal
-icon: hockey_san_juan_2011.png
-carousel:
-- hockey2011/0.png
-- hockey2011/1.png
-- hockey2011/2.png
-- hockey2011/3.png
-- hockey2011/4.png
-- hockey2011/5.png
-- hockey2011/6.png
-- hockey2011/7.png
-- hockey2011/8.png
+assets: hockey2011
+carousel_size: 9
 company: Major Sports Events – iClio
 packagename: com.ryanamaral.hockey2011
 

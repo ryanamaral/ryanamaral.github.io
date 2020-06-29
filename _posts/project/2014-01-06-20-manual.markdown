@@ -5,16 +5,8 @@ categories:
 title:  "20 Manual"
 date:   2014-01-20
 location: Lisbon, Portugal
-icon: 20manual.png
-carousel:
-- 20manual/1.png
-- 20manual/2.png
-- 20manual/3.png
-- 20manual/4.png
-- 20manual/5.png
-- 20manual/6.png
-- 20manual/7.png
-- 20manual/8.png
+assets: 20manual
+carousel_size: 8
 company: LeYa S.A.
 packagename: com.leya.educacao.manualdigital
 

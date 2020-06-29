@@ -5,17 +5,8 @@ categories:
 title:  "Victron Energy"
 date:   2013-03-06
 location: Amsterdam, The Netherlands
-icon: victron.png
-carousel:
-- victron/0.png
-- victron/1.png
-- victron/2.png
-- victron/3.png
-- victron/4.png
-- victron/5.png
-- victron/6.png
-- victron/7.png
-- victron/8.png
+assets: victron
+carousel_size: 9
 company: Victron Energy BV
 packagename: nl.victronenergy
 

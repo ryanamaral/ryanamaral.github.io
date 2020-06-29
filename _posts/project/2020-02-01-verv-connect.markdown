@@ -5,14 +5,8 @@ categories:
 title:  "Verv Connect"
 date:   2020-02-01
 location: London, UK
-icon: verv_connect.png
-carousel:
-- verv-connect/1.png
-- verv-connect/2.png
-- verv-connect/3.png
-- verv-connect/4.png
-- verv-connect/5.png
-- verv-connect/6.png
+assets: verv-connect
+carousel_size: 6
 company: Green Running Limited
 packagename: com.greenrunning.vplug
 

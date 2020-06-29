@@ -5,9 +5,8 @@ categories:
 title:  "Schiphol"
 date:   2013-03-04
 location: Amsterdam, The Netherlands
-icon: schiphol.png
-carousel:
-- schiphol/1.png
+assets: schiphol
+carousel_size: 1
 company: Schiphol Airport
 packagename: org.schiphol
 

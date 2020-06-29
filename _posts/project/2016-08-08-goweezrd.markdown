@@ -5,14 +5,8 @@ categories:
 title:  "GoWeezrd"
 date:   2016-08-08
 location: Lisbon, Portugal
-icon: goweezrd.png
-carousel:
-- goweezrd/1.png
-- goweezrd/2.png
-- goweezrd/3.png
-- goweezrd/4.png
-- goweezrd/5.png
-- goweezrd/6.png
+assets: goweezrd
+carousel_size: 6
 company: Personal Project
 packagename: com.ryanamaral.goweezrd
 

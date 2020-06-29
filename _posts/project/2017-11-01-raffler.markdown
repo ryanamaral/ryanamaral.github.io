@@ -5,13 +5,8 @@ categories:
 title:  "Raffler"
 date:   2017-11-01
 location: London, UK
-icon: raffler.png
-carousel:
-- raffler/1.png
-- raffler/2.png
-- raffler/3.png
-- raffler/4.png
-- raffler/5.png
+assets: raffler
+carousel_size: 5
 company: Raffler Limited
 packagename: co.raffler
 

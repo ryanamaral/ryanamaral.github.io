@@ -5,15 +5,8 @@ categories:
 title:  "Público"
 date:   2013-10-14
 location: Lisbon, Portugal
-icon: publico.png
-carousel:
-- publico/1.png
-- publico/2.png
-- publico/3.png
-- publico/4.png
-- publico/5.png
-- publico/6.png
-- publico/7.png
+assets: publico
+carousel_size: 7
 company: Público - Comunicação Social S.A.
 packagename: pt.publico.android
 

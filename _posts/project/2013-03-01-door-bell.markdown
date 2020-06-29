@@ -5,10 +5,9 @@ categories:
 title:  "Door Bell"
 date:   2013-03-01
 location: Amsterdam, The Netherlands
-icon: door_bell.png
-carousel:
-- doorbell/1.png
-company: M2mobi
+assets: doorbell
+carousel_size: 1
+company: Company Hackathon
 
 ---
 #### Door Bell

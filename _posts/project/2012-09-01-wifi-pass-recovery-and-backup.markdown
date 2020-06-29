@@ -5,11 +5,8 @@ categories:
 title:  "WiFi Pass Recovery & Backup"
 date:   2012-09-01
 location: Coimbra, Portugal
-icon: wifi_pass_recovery.png
-carousel:
-- wifipass/0.jpg
-- wifipass/1.png
-- wifipass/2.png
+assets: wifipass
+carousel_size: 3
 company: Personal Project (later sold to Golden Apportunity)
 packagename: com.ryanamaral.wifi.passwords
 

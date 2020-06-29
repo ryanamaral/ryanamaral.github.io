@@ -5,16 +5,8 @@ categories:
 title:  "AMC Navigation"
 date:   2013-03-05
 location: Amsterdam, The Netherlands
-icon: amc.png
-carousel:
-- amc/1.png
-- amc/2.png
-- amc/3.png
-- amc/4.png
-- amc/5.png
-- amc/6.png
-- amc/7.png
-- amc/8.png
+assets: amc
+carousel_size: 7
 company: Academic Medical Center (AMC)
 packagename: nl.amc
 

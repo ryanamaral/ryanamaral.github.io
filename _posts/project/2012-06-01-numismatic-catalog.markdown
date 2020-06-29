@@ -5,9 +5,8 @@ categories:
 title:  "Numismatic Catalog"
 date:   2012-06-01
 location: Coimbra, Portugal
-icon: numismatic_catalog.png
-carousel:
-- numismatic/1.png
+assets: numismatic
+carousel_size: 1
 
 ---
 #### Numismatic Catalog | Portugal

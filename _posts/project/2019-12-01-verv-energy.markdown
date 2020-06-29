@@ -5,14 +5,8 @@ categories:
 title:  "Verv Energy"
 date:   2019-12-01
 location: London, UK
-icon: verv_energy.png
-carousel:
-- verv/1.png
-- verv/2.png
-- verv/3.png
-- verv/4.png
-- verv/5.png
-- verv/6.png
+assets: verv-energy
+carousel_size: 6
 company: Green Running Limited
 packagename: com.greenrunning.verv
 

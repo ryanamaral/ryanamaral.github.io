@@ -5,9 +5,8 @@ categories:
 title:  "Let's Meet"
 date:   2013-03-02
 location: Amsterdam, The Netherlands
-icon: lets_meet.png
-carousel:
-- letsmeet/1.png
+assets: letsmeet
+carousel_size: 1
 company: Let's Meet – Pay Logic
 packagename: nl.eelogic.awesomedemolive
 

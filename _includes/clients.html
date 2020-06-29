@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row centered">
             <h3>Companies I collaborated with</h3>
-            {% for company in site.companies %}
+            {% for company in site.company_list %}
                 <div id="clientLogo" class="col-lg-4 col-md-3 col-sm-3">
-                    <img src="{{ "/assets/img/companies/" | prepend: site.baseurl }}{{ company.img }}" class="img-responsive">
+                    <img src="{{ site.base_url }}/assets/images/company/{{ company.img }}" class="img-responsive">
                 </div>
             {% endfor %}
         </div>

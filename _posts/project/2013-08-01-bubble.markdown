@@ -5,16 +5,8 @@ categories:
 title:  "Bubble"
 date:   2013-08-01
 location: Lisbon, Portugal
-icon: bubble.png
-carousel:
-- bubble/1.png
-- bubble/2.png
-- bubble/3.png
-- bubble/4.png
-- bubble/5.png
-- bubble/6.png
-- bubble/7.png
-- bubble/8.png
+assets: bubble
+carousel_size: 8
 company: BubbleApp
 
 ---

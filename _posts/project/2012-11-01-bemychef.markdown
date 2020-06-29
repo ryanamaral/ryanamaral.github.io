@@ -5,11 +5,9 @@ categories:
 title:  "BeMyChef!"
 date:   2012-11-01
 location: Lisbon, Portugal
-icon: bemychef.png
+assets: bemychef
 company: DeltaApp Contest
-carousel:
-- bemychef/0.jpg
-- bemychef/1.png
+carousel_size: 2
 
 ---
 #### BeMyChef!

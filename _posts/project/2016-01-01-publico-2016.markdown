@@ -5,14 +5,8 @@ categories:
 title:  "Público 2016"
 date:   2016-01-01
 location: Lisbon, Portugal
-icon: publico_2016.png
-carousel:
-- publico2016/1.png
-- publico2016/2.png
-- publico2016/3.png
-- publico2016/4.png
-- publico2016/5.png
-- publico2016/6.png
+assets: publico2016
+carousel_size: 6
 company: Público - Comunicação Social S.A.
 packagename: pt.publico.android
 
