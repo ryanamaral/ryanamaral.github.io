@@ -1,7 +1,8 @@
 # Site settings
 author: "Ryan Amaral"
 title: "Ryan Amaral ∙ Android Engineer"
-title_header: "Ryan Amaral&nbsp;&nbsp;■&nbsp;&nbsp;Android Engineer"
+title_header: "Ryan Amaral"
+# title_header: "Ryan Amaral&nbsp;&nbsp;■&nbsp;&nbsp;Android Engineer"
 description: "Android Engineer Portfolio"
 analytics: UA-61486844-1
 base_url: ""
@@ -15,9 +16,9 @@ markdown: kramdown
 permalink: /:categories/:title
 
 colors:  #in hex code if not noted else
-  primary: "#9FC2CC"
-  primary_rgb: "159,194,204" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#384452"
+  primary: "#7db8c9"
+  primary_rgb: "125,185,201" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#2b3642"
   yellow: "#BB7722"
   blue: "#1B5299"
   white: "#FFFFFF"
