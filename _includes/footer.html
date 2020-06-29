@@ -1,29 +1,16 @@
 <div id="footerwrap">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <h4>about me</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
+            <div class="col-xs-12 centered">
+				<!-- <span id="footer-text">RyanAmaral.com ∙ </span> -->
+				<span id="footer-text">Making apps with</span>
+				<i id="footer-heart-ico" class="fa fa-heart"></i>
+				<span id="footer-text">and</span>
+				<i id="footer-ico" class="fa fa-coffee"></i>
+				<span id="footer-text">since 2011</span>
+				<!-- <span id="footer-text">around the</span> -->
+				<!-- <i id="footer-ico" class="fa fa-globe"></i> -->
             </div>
-            <div class="col-lg-4">
-                <h4>social links</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <h4>currently based</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-            </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+        </div>
+    </div>
+</div>

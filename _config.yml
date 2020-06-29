@@ -1,12 +1,11 @@
-### GENERAL SETTINGS ###
-
 # Site settings
-title: "Ryan Amaral | Android Developer"
-title_topbar: "Ryan Amaral &nbsp | &nbsp  Android Developer"
-description: "Portfolio"
+author: "Ryan Amaral"
+title: "Ryan Amaral ∙ Android Engineer"
+title_header: "Ryan Amaral&nbsp;&nbsp;■&nbsp;&nbsp;Android Engineer"
+description: "Android Engineer Portfolio"
 analytics: UA-61486844-1
 baseurl: ""
-url: "http://ryanamaral.github.io/"
+url: "https://ryanamaral.com/"
 #url: "http://127.00.1:4000"
 
 # Build settings
@@ -15,41 +14,30 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#9FC2CC" #"#00b3fe" #"#F70031"
-  primary_rgb: "159,194,204" #0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  primary: "#9FC2CC"
+  primary_rgb: "159,194,204" #rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#384452" #"#33004D"
   yellow: "#BB7722"
   blue: "#1B5299"
   white: "#FFFFFF"
   link: "#428bca"
-  link_hover: "#BB7722" #"#BB7722" #"#9FC2CC" #"#01b2fe"
+  link_hover: "#BB7722"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
-
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: dribbble, facebook, google-plus, flickr, instagram, tumblr, linkedin, etc). Shown in footer.
 social:
-  - title: github
-    url: http://github.com/ryanamaral
   - title: linkedin
     url: https://www.linkedin.com/in/ryanamaral
-  - title: twitter
-    url: https://twitter.com/ryanamaralpt
+  - title: github
+    url: https://github.com/ryanamaral
   - title: stack-overflow
-    url: http://stackoverflow.com/users/904907/ryan
+    url: https://stackoverflow.com/users/904907/ryan-amaral
 
-
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
     - Lisbon, Portugal
 
 email: me@ryanamaral.com
-
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Companies
 companies:
@@ -66,7 +54,6 @@ companies:
   - name: iClio
     img: iclio.png
 
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Hi there! I'm Ryan Amaral. I am an enthusiastic Android developer currently working as freelancer. I took my Bachelor of Engineering in Computer Science degree in Coimbra, Portugal. In 2012 I developed my first own Android app and in only 4 months it reached the mark of 1 million downloads. Working on new ideas is my greatest passion! While crafting applications I apply the best practices of mobile development and the principles of material design."
 
 # Recommendations

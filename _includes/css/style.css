@@ -1,7 +1,6 @@
 /*	################################################################
 
-	Author: Carlos Alvarez
-	URL: http://alvarez.is
+	Author: Carlos Alvarez, Ryan Amaral
 
 	Project Name: SOLID - Bootstrap 3 Theme
 	Version: 1.0
@@ -96,6 +95,17 @@ a:focus {
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
+
+/*.navbar-title {
+	min-height: 70px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+	color: white;
+}
+.navbar-title a:hover {
+	color: #384452;
+}*/
+
 .navbar {
 	min-height: 70px;
 	padding-top: 10px;
@@ -104,11 +114,17 @@ a:focus {
 
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-weight: 600;
 }
 
 .navbar-header .navbar-brand {
 	color: white;
+}
+
+.navbar-brand a:hover {
+	color: #384452;
+	background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -284,9 +300,10 @@ a:focus {
 }
 
 #header-ico {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     vertical-align: baseline;
+    color: #a4c639;
 }
 
 
@@ -421,28 +438,62 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background: {{ site.colors.secondary }};
 }
 
-#footerwrap p {
+/*#footerwrap p {
 	color: {{ site.colors.footer_content }};
-}
+}*/
 
-#footerwrap h4 {
+/*#footerwrap h4 {
 	color: {{ site.colors.footer_heading }};
-}
+}*/
 
-#footerwrap i {
+/*#footerwrap i {
 	font-size: 30px;
 	color: {{ site.colors.footer_content }};
-	padding-right: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}*/
+
+/*#footerwrap i:hover {
+	color: {{ site.colors.primary }};
+}*/
+
+#footer-text {
+	font-size: 14px;
+	color: {{ site.colors.footer_content }};
+}
+#footer-heart-ico {
+	font-size: 18px;
+	padding-left: 3px;
+	padding-right: 3px;
+    vertical-align: middle;
+    color: rgb(250, 74, 134);
+}
+#footer-ico {
+	font-size: 18px;
+	padding-left: 3px;
+	padding-right: 3px;
+    vertical-align: middle;
+	color: {{ site.colors.footer_content }};
 }
 
-#footerwrap i:hover {
-	color: {{ site.colors.primary }}
+/* Social */
+#socialwrap i {
+	font-size: 35px;
+	color: {{ site.colors.secondary }};
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
+
+#socialwrap i:hover {
+	color: {{ site.colors.yellow }};
+}
+
 
 /*	################################################################
 	PAGE CONFIGURATIONS
