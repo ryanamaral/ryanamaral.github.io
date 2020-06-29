@@ -1,11 +1,11 @@
 /*	################################################################
 
-	Author: Carlos Alvarez, Ryan Amaral
+	Author: Carlos Alvarez (http://alvarez.is)
+			Ryan Amaral (ryanamaral.com)
 
 	Project Name: SOLID - Bootstrap 3 Theme
-	Version: 1.0
-	URL: http://alvarez.is
-	
+	Version: 2020
+
 ################################################################# */ 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,900);
@@ -15,10 +15,10 @@
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
-	* { 
-		margin: 0;
-		padding: 0px;
-	} 
+* { 
+	margin: 0;
+	padding: 0px;
+} 
 
 body { 
 	background: #ffffff; 
@@ -95,16 +95,6 @@ a:focus {
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
-
-/*.navbar-title {
-	min-height: 70px;
-	padding-top: 10px;
-	margin-bottom: 0px;
-	color: white;
-}
-.navbar-title a:hover {
-	color: #384452;
-}*/
 
 .navbar {
 	min-height: 70px;
@@ -226,7 +216,7 @@ a:focus {
 	margin-top: 60px;
 }
 
-.testimonial-line {
+.recommendation-line {
     margin-top: 30px;
     border-bottom: 1px solid {{ site.colors.white }};
 }
@@ -498,7 +488,6 @@ a:focus {
 /*	################################################################
 	PAGE CONFIGURATIONS
 ################################################################# */
-/* General Tweaks */
 
 #blue {
 	background: {{ site.colors.primary }};
