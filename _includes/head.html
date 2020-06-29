@@ -2,19 +2,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{site.description}}">
-    <meta name="author" content="{{site.author}}">
-    <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
-    <title>{{site.title}}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <link href="{{ site.url }}/assets/ico/favicon.ico" rel="shortcut icon">
+    <title>{{ site.title }}</title>
 	
     <!-- Bootstrap core CSS -->
-    <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ site.url }}/assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles -->
-    <!-- <link href="{{ root_url }}/css/main.css" rel="stylesheet"> -->
-    <link href="https://ryanamaral.com/assets/css/main.css" rel="stylesheet">
-    <!-- <link href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" rel="stylesheet"> -->
-    <link href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ site.url }}/assets/css/main.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/css/font-awesome.min.css" rel="stylesheet">
 
+    <!-- Recaptcha -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
