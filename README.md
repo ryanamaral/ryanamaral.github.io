@@ -1,7 +1,5 @@
 # Ryan Amaral | Android Engineer
 
-![Screenshot](../master/assets/img/home-page.png)
-
 ## Technology
   * [Jekyll (static site generator)](http://jekyllrb.com/)
   * Framework: [Bootstrap](https://github.com/twbs/bootstrap)

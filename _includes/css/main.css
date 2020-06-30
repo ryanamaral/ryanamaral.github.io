@@ -107,11 +107,11 @@ a:focus {
   background-size: cover;
   background-attachment: fixed;
   background:{{ site.colors.secondary }};
+}
 
-  .particles-js-canvas-el {
-    width:100% !important;
-    height:100vh !important;
-  }
+.particles-js-canvas-el {
+	width:100% !important;
+	height:100vh !important;
 }
 
 /************************************/
