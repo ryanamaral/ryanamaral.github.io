@@ -114,38 +114,6 @@ a:focus {
   }
 }
 
-/*.social-icons {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  .icon {
-    text-align: center;
-    color: #FFF;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 50%;
-    border: 2px solid #FFF;
-    transition: all .7s;
-    
-    &:hover {
-      color: #1a222c;
-      background: #FFF;
-    }
-    &:active {
-      color: #1a222c;
-      background: #FFF;
-    }
-    @media only screen and (min-width:550px) {
-      width: 35px;
-      height: 35px;
-      font-size: 35px;
-    }
-  }
-}*/
-
 /************************************/
 /************************************/
 
@@ -481,11 +449,15 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 24px;
 	background: {{ site.colors.secondary }};
 }
 
+/*#footer {
+	margin-top: 20px;
+}
+*/
 /*#footerwrap p {
 	color: {{ site.colors.footer_content }};
 }*/
@@ -507,7 +479,7 @@ a:focus {
 
 #footer-text {
 	font-size: 14px;
-	color: {{ site.colors.footer_content }};
+	color: white;
 }
 #footer-heart-ico {
 	font-size: 18px;
@@ -521,7 +493,7 @@ a:focus {
 	padding-left: 3px;
 	padding-right: 3px;
     vertical-align: middle;
-	color: {{ site.colors.footer_content }};
+	color: white;
 }
 
 /* Social */
@@ -537,22 +509,42 @@ a:focus {
 	color: {{ site.colors.yellow }};
 }
 
+.social-ico i {
+	font-size: 20px;
+	width: 36px;
+	height: 36px;
+	color: white;
+	padding: 8px;
+	margin: 5px;
+	border-radius: 50%;
+	border: 1px solid #FFF;
+	justify-content: center;
+	text-align: center;
+	transition: all .7s;
+}
+.social-ico i:hover {
+	background: white;
+	color: {{ site.colors.secondary }};
+}
+
 
 /*	################################################################
 	PAGE CONFIGURATIONS
 ################################################################# */
 
+/* 2nd header */
 #blue {
 	background: {{ site.colors.primary }};
 	margin-top: 60px;
 	margin-bottom: 60px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 #blue h3 {
-	color: white;
+	font-size: 20px;
 	margin-left: 15px;
+	color: {{ site.colors.secondary }};
 }
 
 .carousel-inner > .item > img,

@@ -23,16 +23,5 @@
                   <button type="submit" value="Send" class="btn btn-theme">Send message</button>
                 </form>
         </div>
-        <div class="col-lg-4">
-          <div id="socialwrap">
-            <h4>Social links</h4>
-            <div class="hline"></div>
-            <p>
-                {% for network in site.social %}
-                    <a href="{{ network.url }}" target="_blank" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>&nbsp;&nbsp;
-                {% endfor %}
-            </p>
-          </div>
-        </div>
     </div>
 </div>
