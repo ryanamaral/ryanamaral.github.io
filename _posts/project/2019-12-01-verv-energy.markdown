@@ -6,7 +6,7 @@ title:  "Verv Energy"
 date:   2019-12-01
 location: London, UK
 assets: verv-energy
-carousel_size: 6
+carousel_size: 3
 company: Green Running Limited
 packagename: com.greenrunning.verv
 
