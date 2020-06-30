@@ -393,7 +393,7 @@ a:focus {
 
 /* Testimonials wrap */
 #twrap {
-    background: url(../img/25-de-abril-bridge.jpg) no-repeat center top;
+    background: url(../images/web/25-de-abril-bridge.jpg) no-repeat center top;
     position: relative;
     margin-top: 0px;
 	padding-top:60px;
@@ -449,7 +449,7 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	padding-top: 10px;
+	padding-top: 18px;
 	padding-bottom: 24px;
 	background: {{ site.colors.secondary }};
 }
@@ -476,6 +476,10 @@ a:focus {
 /*#footerwrap i:hover {
 	color: {{ site.colors.primary }};
 }*/
+
+.footer-w {
+	padding-top: 10px;
+}
 
 #footer-text {
 	font-size: 14px;
@@ -592,7 +596,7 @@ csmall {
 
 /* Contact Page */
 #contactwrap {
-	background: url(../img/contact.jpg) no-repeat center top;
+	background: url(../images/web/contact.jpg) no-repeat center top;
 	margin-top: -60px;
 	padding-top:0px;
 	text-align:center;
