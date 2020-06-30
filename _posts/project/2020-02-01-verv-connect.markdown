@@ -6,7 +6,7 @@ title:  "Verv Connect"
 date:   2020-02-01
 location: London, UK
 assets: verv-connect
-carousel_size: 6
+carousel_size: 15
 company: Green Running Limited
 packagename: com.greenrunning.vplug
 
